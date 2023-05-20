@@ -8,7 +8,7 @@ BEGIN
         {"userid":"7890", "result":"User is late"}
     ]';
     
-	--Get result for userid = 7890
+    --Get result for userid = 7890
     SELECT JSON_VALUE(value, '$.result') as result
     FROM OPENJSON(@json)
     WHERE JSON_VALUE(value, '$.userid') = '7890';
