@@ -1,18 +1,19 @@
 ﻿using CodingTest_Application.Models;
-using CodingTest_Application.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Xml.Linq;
+using CodingTest_Application.IRepository;
 
 namespace CodingTest_Application.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;        
+        private readonly IcommonClass Icommonclass;
+        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IcommonClass Icommonclass)
         {
             _logger = logger;
+            this.Icommonclass = Icommonclass;
         }
 
         public IActionResult Index()
@@ -31,32 +32,20 @@ namespace CodingTest_Application.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Calc( int[] result)
+        public IActionResult Calc(int[] result)
         {
-            if (result.Length == 0)
-            {
-                return View();
-            }
-            else
-            {
-                ViewBag.Result = result[0];
-                ViewBag.X = result[1];
-                ViewBag.Y = result[2];
-                return View();
-            }
+            return View();            
         }
 
         public IActionResult Submit(string param, int x, int y)
         {
-            commonClass commonClass = new commonClass();     
-            int res = commonClass.callFunction(param, x, y);
-            int []elements = new int[] {res, x, y};
-            return RedirectToAction("Calc", "Home", new { result = elements});
+            int res = Icommonclass.callFunction(param, x, y);
+            return Json(res);
         }
 
         public IActionResult Reset()
-        {           
-            var elements = Enumerable.Range(0,0).ToArray();
+        {
+            var elements = Enumerable.Range(0, 0).ToArray();
             return RedirectToAction("Calc", "Home", new { result = elements });
         }
 

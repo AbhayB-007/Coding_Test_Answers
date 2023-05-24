@@ -29,3 +29,34 @@ C:\Users\rmani\ABHAY Programs & Notes\MY PROGRAMS\DOTNET\Practice\CodingTest_App
 C:\Users\rmani\ABHAY Programs & Notes\MY PROGRAMS\DOTNET\Practice\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.pdb
 C:\Users\rmani\ABHAY Programs & Notes\MY PROGRAMS\DOTNET\Practice\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.genruntimeconfig.cache
 C:\Users\rmani\ABHAY Programs & Notes\MY PROGRAMS\DOTNET\Practice\CodingTest_Application\obj\Debug\net6.0\ref\CodingTest_Application.dll
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\appsettings.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\CodingTest_Application.staticwebassets.runtime.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\CodingTest_Application.exe
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\CodingTest_Application.deps.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\CodingTest_Application.runtimeconfig.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\CodingTest_Application.dll
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\bin\Debug\net6.0\CodingTest_Application.pdb
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.csproj.AssemblyReference.cache
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.AssemblyInfoInputs.cache
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.AssemblyInfo.cs
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.csproj.CoreCompileInputs.cache
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.RazorAssemblyInfo.cache
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.RazorAssemblyInfo.cs
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\staticwebassets\msbuild.CodingTest_Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\staticwebassets\msbuild.build.CodingTest_Application.props
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CodingTest_Application.props
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CodingTest_Application.props
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\scopedcss\bundle\CodingTest_Application.styles.css
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\scopedcss\projectbundle\CodingTest_Application.bundle.scp.css
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.dll
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\refint\CodingTest_Application.dll
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.pdb
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\CodingTest_Application.genruntimeconfig.cache
+C:\Users\rmani\Desktop\New folder\Coding_Test_Answers\Q1\CodingTest_Application\obj\Debug\net6.0\ref\CodingTest_Application.dll

@@ -1,9 +1,6 @@
 ﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-
-@{
-}
 
 <style>
     .container li {
@@ -14,19 +11,18 @@
 </style>
 
 <div class="container">
-    <form asp-controller="Home" asp-action="Submit">
-
+    <form id="form">
         <ul>
             <li>
-                <label for="X-text">X : </label>
-                <input type="text" id="X-text" name="x" value="@ViewBag.X" required />
+                <label for="X-text">X</label><span class="text-danger">* : </span>
+                <input type="text" id="X-text" name="x" required />
             </li>
             <li>
-                <label for="Y-text">Y : </label>
-                <input type="text" id="Y-text" name="y" value="@ViewBag.Y" required />
+                <label for="Y-text">Y</label><span class="text-danger">* : </span>
+                <input type="text" id="Y-text" name="y" required />
             </li>
             <li>
-                <label for="options">Options : </label>
+                <label for="options">Options</label><span class="text-danger">* : </span>
                 <select id="options" name="param" required>
                     <option value="">Select-Options</option>
                     <option value="Add">Add</option>
@@ -34,12 +30,66 @@
                 </select>
             </li>
             <li>
-                <input type="submit" value="Submit" />                
+                <input type="button" value="Submit" onclick="Submit()" />
+                <input type="reset" value="Reset" onclick="Reset()" />
             </li>
             <li>
                 <label for="result">Result : </label>
-                <input type="text" id="result" value="@ViewBag.Result" />
+                <input type="text" id="result" />
             </li>
         </ul>
     </form>
-</div>              
+</div>
+
+<script>
+    @* window.addEventListener('load', function () {
+        var url = window.location.href.split('?')[1];
+        if (url) {
+        var params = url.split('&');
+        $('#result').val(params[0].split('=')[1]);
+        $('#X-text').val(params[1].split('=')[1]);
+        $('#Y-text').val(params[2].split('=')[1]);
+        }
+        }); *@
+
+        function Submit() {
+            debugger;
+            var isFormValid = true;
+            $('#form input:required').each(function () {
+                if ($(this).val() === '') {
+                    isFormValid = false;
+                }
+                if ($('#options').val() === '') {
+                    isFormValid = false;
+                }
+            });
+
+            if (isFormValid) {
+                var param = $('#options').val();
+                var x = $('#X-text').val();
+                var y = $('#Y-text').val();
+
+                $.ajax({
+                    url: "/Home/Submit",
+                    data: { param: param, x: x, y: y },
+                    type: "POST",
+                    success: function (response) {
+                        debugger;
+                        console.log(response);
+                        alert('Sent Successfully!');
+                        $('#result').val(response);
+                    },
+                    error: function () {
+                        alert('Error!')
+                    }
+                });
+            } else {
+                alert('Please fill all the mandatory fields');
+                return false;
+            }
+        }
+
+    function Reset() {
+        window.location.href = "/Home/Calc";
+    }
+</script>
