@@ -32,22 +32,14 @@ namespace CodingTest_Application.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Calc(int[] result)
+        public IActionResult Calc()
         {
-            return View();            
+            return View();
         }
-
         public IActionResult Submit(string param, int x, int y)
         {
             int res = Icommonclass.callFunction(param, x, y);
             return Json(res);
         }
-
-        public IActionResult Reset()
-        {
-            var elements = Enumerable.Range(0, 0).ToArray();
-            return RedirectToAction("Calc", "Home", new { result = elements });
-        }
-
     }
 }
